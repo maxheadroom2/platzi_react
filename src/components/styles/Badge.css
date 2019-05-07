@@ -1,0 +1,48 @@
+.Badge {
+  height        : 380px;
+  overflow      : hidden;
+  border-radius : 8px 8px 8px 8px;
+  background    : #FFFFFF;
+  box-shadow    : 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+}
+
+.Badge__header {
+  display         : flex;
+  height          : 80px;
+  padding         : 0.5rem 0;
+  background      : #1B1B25;
+  justify-content : center;
+}
+
+.Badge__section-name {
+  display         : flex;
+  padding         : 1rem 0;
+  align-items     : center;
+  justify-content : center;
+}
+
+.Badge__section-info {
+  display         : flex;
+  padding         : 0.5rem 0;
+  background      : #F4F4F7;
+  align-items     : center;
+  flex-direction  : column;
+  justify-content : center;
+}
+
+.Badge__avatar {
+  width         : 120px;
+  height        : 120px;
+  margin-right  : 1rem;
+  border-radius : 50%;
+}
+
+.Badge__footer {
+  display         : flex;
+  height          : 54px;
+  color           : #98CA3F;
+  align-items     : center;
+  font-style      : italic;
+  font-weight     : bold;
+  justify-content : center;
+}
